@@ -1,0 +1,7 @@
+https://www.tsmean.com/articles/how-to-write-a-typescript-library/
+
+
+npm install --save file:other_paths/foo
+
+
+"sample_react_package_kuldeep": "file:E:/xampp5.6/htdocs/learning_skills/react/typescript-package"

@@ -1,0 +1,4 @@
+https://www.digitalocean.com/community/tutorials/using-create-react-app-v2-and-typescript
+
+https://dev.to/atbrakhi/implement-your-own-custom-hook-in-react-with-typescript-1f1l
+

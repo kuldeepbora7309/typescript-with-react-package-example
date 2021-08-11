@@ -1,0 +1,19 @@
+{
+  "name": "hwrldkuldeep",
+  "version": "1.5.0",
+  "author": "Kuldeep Singh Bora",
+  "license": "MIT",
+  "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "samplehwrldkuldeep",
+    "samplehwrldkuldeep"
+  ],
+  "scripts": {
+    "build": "tsc"
+  }
+}
