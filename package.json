@@ -1,0 +1,33 @@
+{
+  "name": "sample_react_package_kuldeep",
+  "version": "4.0.1-beta20210914.3",
+  "description": "learning react typescript package",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "publish-package": "npm --no-git-tag-version version patch && npm publish",
+    "version": "node version.js"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "files": [
+    "/lib"
+  ],
+  "dependencies": {
+    "semver": "^7.3.5"
+  }
+}
